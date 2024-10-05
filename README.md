@@ -8,11 +8,9 @@ The main objectives of this project are to:
 - Store feedback data securely in a SQLite3 database.
 - Display personal information and satisfaction levels, and analyze feedback using fake data as a reference via the second GUI.
 - Perform sentiment analysis and generate word clouds via the third GUI.
-- Provide visual reports and allow for easy data export for further analysis via the fourth GUI.
+- Provide visual reports and allow for easy data export for further analysis via the fourth GUI. <br>
 
-<br>
-
-# Database Schema
+## Database Schema
 Feedback data is stored in a SQLite database with the following schema:
 
 | Column Name    | Data Type |
@@ -29,15 +27,12 @@ Feedback data is stored in a SQLite database with the following schema:
 | other_comments | TEXT      |
 | submitted_at   | DATETIME  |
 
-Note: `q1 to q10` represents ten separate integer fields for various survey questions.
+Note: `q1 to q10` represents ten separate integer fields for various survey questions.<br>
 
-<br>
+## Project Flowchart
 
-# Project Flowchart
+<img src="https://github.com/user-attachments/assets/b77aa595-11f8-4671-8869-58e8d8e3225f" width="300">
 
-![alt text](image.png)
-
-<br>
 
 ## Project Components
 
@@ -64,26 +59,28 @@ This step involves several graphical user interfaces, each designed for a specif
 
 <br>
 
-# GUI Overview
+## GUI Overview
 
 ### First GUI: Feedback Survey Screen
-This interface is designed for users to input their feedback directly through various survey forms.
+This interface is designed for users to input their feedback directly through a survey form.
 
-![alt text](image.png)
-![alt text](image-1.png)
+<img src="https://github.com/user-attachments/assets/0cec76cf-17b2-44fa-855e-00d9b978e5fe" width="500"> <br>
+<img src="https://github.com/user-attachments/assets/6a50ca7f-de99-4e4b-9d57-99ec201842b7" width="500">
 
 ### Second GUI: Survey Data Analysis
-This screen displays the analysis of the collected survey data, providing insights into participant satisfaction and other metrics.
+This screen displays an analysis of the collected personal information and satisfaction levels to quickly assess and interpret participant feedback.
 
-![alt text](image-2.png)
-![alt text](image-3.png)
+<img src="https://github.com/user-attachments/assets/bc3729ec-5042-4b83-adde-d3a0d2abd395" width="400"><br>
+
+<img src="https://github.com/user-attachments/assets/25a1a736-c870-404b-af90-8924107cca03" width="400">
 
 ### Third GUI: Sentiment Analysis and Word Cloud Generation
 This interface performs sentiment analysis on open-ended survey responses and generates word clouds to visually represent key terms and sentiments.
 
-![alt text](image-4.png)
+<img src="https://github.com/user-attachments/assets/89568e95-b12a-4698-8974-3ca4d6303b53" width="300">
 
 ### Fourth GUI: Survey Data Viewer
 This GUI allows users to view and export the survey data, facilitating further analysis or reporting outside the system.
 
-![alt text](image-5.png)#
+<img src="https://github.com/user-attachments/assets/df189845-14ca-4afd-8899-32d49096e829" width="300">
+
